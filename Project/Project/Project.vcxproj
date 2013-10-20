@@ -68,6 +68,8 @@
     <ClCompile Include="MapaDigi.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Historico.h" />
+    <ClInclude Include="Natural.h" />
     <ClInclude Include="LocalTuris.h" />
     <ClInclude Include="ViaLig.h" />
   </ItemGroup>

@@ -21,6 +21,12 @@
     <ClInclude Include="ViaLig.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Natural.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Historico.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="MapaDigi.cpp">

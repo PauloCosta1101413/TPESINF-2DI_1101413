@@ -9,34 +9,29 @@ using namespace std;
 
 void main(){
 
-	Data dt(1971, 10, 10);
-	Capitulo c("Esinf", 3);
-	Capitulo x("Esinf", 4);
-	Anotacao a1("AMD");
-	Anotacao a2("MFC");
-	Anotacao a3("AMD");
-	Anotacao a4("MFC");
-	Anotacao a5("AMD");
 
-	Livro l(5);
+	LocalTuris lt1("LocTurist1");
+	LocalTuris lt2("LocTurist1");
+	LocalTuris lt3("LocTurist1");
+	LocalTuris lt4("LocTurist1");
 
-	l.inserirPagina(&a1);
-	l.inserirPagina(&a2);
-	l.inserirPagina(&a3);
-	l.inserirPagina(&c);
-	l.inserirPagina(&x);
+	LocalTuris.listar();
 
-	l.listar();
+	/*(LocTurist1, 9000);
+	(LocTurist2, 120,570,1110);
+	(LocTurist3, 5500);
+	(LocTurist4, 2300);
+	(LocTurist5, 20,540,870);
+	*/
 
-	/*c.listar();
-	x.listar();
-	a1.listar();
-	a1.setAutor("Ana Madureira");
-	cout << a1.getAutor() << endl;
-	Capa capaTese("Integração", "Ana Madureira", dt), cx, cy;
-	capaTese.setTexto("-----ESINF-----");
-	cout << "_________________" << endl;
-	capaTese.listar();
+	/*(LocTurist1, LocTurist2, EN1, 100, 90, asfalto);
+	(LocTurist3, LocTurist7, EN2, 55, 35, paralelo);
+	(LocTurist2, LocTurist5, EN1, 200, 150, asfalto);
+	
+	(LocTurist5, LocTurist2, A3, 54, 30, 3.5);
+	(LocTurist4, LocTurist1, A1, 120, 60, 13.25);
+	(LocTurist9, LocTurist6, A4, 80, 90, 7.05);
+	(LocTurist1, LocTurist7, A2, 65, 40, 4.15);
 	*/
 	cin.get();
 }
